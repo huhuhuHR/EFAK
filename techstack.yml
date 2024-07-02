@@ -1,0 +1,905 @@
+repo_name: huhuhuHR/EFAK
+report_id: a34e68d7fd5af59f3567a6399d2e3ece
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-02T01:29:51+00:00'
+requested_by: smartloli
+provider: github
+branch: master
+detected_tools_count: 60
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-web/src/main/webapp/media/js/bscreen/js/jquery.js
+  detection_source: efak-web/src/main/webapp/media/js/bscreen/js/jquery.js
+  last_updated_by: smartloli
+  last_updated_on: 2019-08-28 17:05:41.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  version: 5.3.22
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-web/pom.xml
+  detection_source: efak-web/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2022-07-17 05:46:47.000000000 Z
+- name: guava
+  description: Google Core Libraries for Java 6+
+  website_url: https://github.com/google/guava
+  version: '31.1'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2970/wBjKn0ol.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-common/pom.xml
+  detection_source: efak-common/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2020-08-11 09:36:02.000000000 Z
+- name: Ehcache
+  description: Java's Most Widely-Used Cache
+  website_url: http://ehcache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Cache
+  image_url: https://img.stackshare.io/service/3093/EhcacheTwitterIcon.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-web/pom.xml
+  detection_source: efak-web/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2020-08-11 09:36:02.000000000 Z
+- name: Kafka
+  description: Distributed, fault tolerant, high throughput pub-sub messaging system
+  website_url: http://kafka.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1063/kazUJooF_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-common/pom.xml
+  detection_source: efak-common/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2020-08-11 09:36:02.000000000 Z
+- name: MyBatis
+  description: SQL Mapper Framework for Java
+  website_url: http://www.mybatis.org/mybatis-3/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/5582/1483254.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-web/pom.xml
+  detection_source: efak-web/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2022-07-17 05:46:47.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-common/pom.xml
+  detection_source: efak-common/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2017-03-24 09:55:31.000000000 Z
+- name: SQLite
+  description: A software library that implements a self-contained, serverless, zero-configuration,
+    transactional SQL database engine
+  website_url: http://www.sqlite.org/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1071/sqlite.jpg
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-common/pom.xml
+  detection_source: efak-common/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2017-03-24 09:55:31.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK
+  detection_source: Repo Metadata
+- name: Log4j
+  description: A Java-based logging utility
+  website_url: https://logging.apache.org/log4j/2.x/
+  version: 1.7.33
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Logging Tools
+  image_url: https://img.stackshare.io/service/2804/Coralogix-log4j-integration.jpg
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-common/pom.xml
+  detection_source: efak-common/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2020-08-11 09:36:02.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-common/pom.xml
+  detection_source: efak-common/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2017-03-24 09:55:31.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: smartloli
+  last_updated_on: 2021-09-12 18:16:33.000000000 Z
+- name: Zookeeper
+  description: Because coordinating distributed systems is a Zoo
+  website_url: http://zookeeper.apache.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Open Source Service Discovery
+  image_url: https://img.stackshare.io/service/1528/apache-zookeeper.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-common/pom.xml
+  detection_source: efak-common/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2021-05-07 14:51:28.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK
+  detection_source: Repo Metadata
+- name: org.apache.calcite:calcite-core
+  description: Core Calcite APIs and engine
+  version: 1.30.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-common/pom.xml
+  detection_source: efak-common/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2022-07-17 05:46:47.000000000 Z
+  vulnerabilities:
+  - name: Apache Calcite before 1.32.0 vulnerable to potential XML External Entity
+      (XXE) attack
+    cve_id: CVE-2022-39135
+    cve_url: https://github.com/advisories/GHSA-fj2m-w3wv-x9pr
+    detected_date: Sep 17
+    severity: critical
+    first_patched: 1.32.0
+- name: org.apache.shiro:shiro-core
+  version: 1.9.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-web/pom.xml
+  detection_source: efak-web/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2022-10-11 07:23:40.000000000 Z
+  vulnerabilities:
+  - name: Apache Shiro Authentication Bypass vulnerability
+    cve_id: CVE-2022-40664
+    cve_url: https://github.com/advisories/GHSA-45x9-q6vj-cqgq
+    detected_date: Oct 13
+    severity: critical
+    first_patched: 1.10.0
+  - name: Apache Shiro vulnerable to path traversal
+    cve_id: CVE-2023-46749
+    cve_url: https://github.com/advisories/GHSA-jc7h-c423-mpjc
+    detected_date: Jan 17
+    severity: moderate
+    first_patched: 1.13.0
+- name: org.apache.shiro:shiro-web
+  version: 1.9.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-web/pom.xml
+  detection_source: efak-web/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2022-07-17 05:46:47.000000000 Z
+  vulnerabilities:
+  - name: Path Traversal in Apache Shiro
+    cve_id: CVE-2023-34478
+    cve_url: https://github.com/advisories/GHSA-pmhc-2g4f-85cg
+    detected_date: Jul 26
+    severity: critical
+    first_patched: 1.12.0
+  - name: Open redirect in Apache Shiro
+    cve_id: CVE-2023-46750
+    cve_url: https://github.com/advisories/GHSA-hhw5-c326-822h
+    detected_date: Dec 15
+    severity: moderate
+    first_patched: 1.13.0
+- name: org.apache.zookeeper:zookeeper
+  version: 3.7.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-common/pom.xml
+  detection_source: efak-common/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2021-05-07 14:51:28.000000000 Z
+  vulnerabilities:
+  - name: Authorization Bypass Through User-Controlled Key vulnerability in Apache
+      ZooKeeper
+    cve_id: CVE-2023-44981
+    cve_url: https://github.com/advisories/GHSA-7286-pgfv-vxvh
+    detected_date: Oct 12
+    severity: critical
+    first_patched: 3.7.2
+  - name: Apache ZooKeeper vulnerable to information disclosure in persistent watchers
+      handling
+    cve_id: CVE-2024-23944
+    cve_url: https://github.com/advisories/GHSA-r978-9m6m-6gm6
+    detected_date: Mar 16
+    severity: moderate
+    first_patched:
+- name: com.fasterxml.jackson.core:jackson-databind
+  description: 'General data-binding functionality for Jackson: works on core streaming
+    API'
+  version: 2.13.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-web/pom.xml
+  detection_source: efak-web/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2022-10-11 07:23:40.000000000 Z
+  vulnerabilities:
+  - name: Uncontrolled Resource Consumption in FasterXML jackson-databind
+    cve_id: CVE-2022-42004
+    cve_url: https://github.com/advisories/GHSA-rgv9-q543-rqg4
+    detected_date: Oct 5
+    severity: high
+    first_patched: 2.13.4
+  - name: Uncontrolled Resource Consumption in Jackson-databind
+    cve_id: CVE-2022-42003
+    cve_url: https://github.com/advisories/GHSA-jjjh-jjxp-wpff
+    detected_date: Oct 5
+    severity: high
+    first_patched: 2.13.4.2
+- name: org.springframework:spring-core
+  description: Spring Core
+  version: 5.3.22
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-web/pom.xml
+  detection_source: efak-web/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2022-10-11 07:23:40.000000000 Z
+  vulnerabilities:
+  - name: Spring Framework vulnerable to denial of service
+    cve_id: CVE-2023-20863
+    cve_url: https://github.com/advisories/GHSA-wxqc-pxw9-g2p8
+    detected_date: Apr 18
+    severity: high
+    first_patched: 5.3.27
+  - name: Spring Framework vulnerable to denial of service via specially crafted SpEL
+      expression
+    cve_id: CVE-2023-20861
+    cve_url: https://github.com/advisories/GHSA-564r-hj7v-mcr5
+    detected_date: Mar 24
+    severity: moderate
+    first_patched: 5.3.26
+- name: org.xerial:sqlite-jdbc
+  description: SQLite JDBC library
+  version: 3.21.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-common/pom.xml
+  detection_source: efak-common/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2021-05-07 14:51:28.000000000 Z
+  vulnerabilities:
+  - name: Sqlite-jdbc vulnerable to remote code execution when JDBC url is attacker
+      controlled
+    cve_id: CVE-2023-32697
+    cve_url: https://github.com/advisories/GHSA-6phf-6h5g-97j2
+    detected_date: May 24
+    severity: high
+    first_patched: 3.41.2.2
+- name: com.google.guava:guava
+  description: Guava is a suite of core and expanded libraries that include utility
+    classes
+  version: '31.1'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-common/pom.xml
+  detection_source: efak-common/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2020-08-11 09:36:02.000000000 Z
+  vulnerabilities:
+  - name: Guava vulnerable to insecure use of temporary directory
+    cve_id: CVE-2023-2976
+    cve_url: https://github.com/advisories/GHSA-7g45-4rm6-3mm3
+    detected_date: Jun 15
+    severity: moderate
+    first_patched: 32.0.0-android
+  - name: Information Disclosure in Guava
+    cve_id: CVE-2020-8908
+    cve_url: https://github.com/advisories/GHSA-5mg8-w23w-74h3
+    detected_date: Aug 22
+    severity: low
+    first_patched: 32.0.0-android
+- name: commons-httpclient:commons-httpclient
+  description: The HttpClient component supports the client-side of RFC 1945
+  version: '3.0'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-common/pom.xml
+  detection_source: efak-common/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2021-09-11 18:35:59.000000000 Z
+  vulnerabilities:
+  - name: Improper Certificate Validation in apache HttpClient
+    cve_id: CVE-2012-5783
+    cve_url: https://github.com/advisories/GHSA-3832-9276-x7gf
+    detected_date: Mar 15
+    severity: moderate
+    first_patched: '4.0'
+- name: mysql:mysql-connector-java
+  description: MySQL JDBC Type 4 driver
+  version: 8.0.21
+  license: GPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-common/pom.xml
+  detection_source: efak-common/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2020-08-11 09:36:02.000000000 Z
+  vulnerabilities:
+  - name: Incorrect Authorization in MySQL Connector Java
+    cve_id: CVE-2021-2471
+    cve_url: https://github.com/advisories/GHSA-w6f2-8wx4-47r5
+    detected_date: Jun 23
+    severity: moderate
+    first_patched: 8.0.27
+  - name: Improper Handling of Insufficient Permissions or Privileges in MySQL Connectors
+      Java
+    cve_id: CVE-2022-21363
+    cve_url: https://github.com/advisories/GHSA-g76j-4cxx-23h9
+    detected_date: Jun 21
+    severity: moderate
+    first_patched: 8.0.28
+- name: org.dom4j:dom4j
+  description: Flexible XML framework for Java
+  version: 2.1.3
+  license: BSD-1-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-plugin/pom.xml
+  detection_source: efak-plugin/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2020-08-11 09:36:02.000000000 Z
+  vulnerabilities:
+  - name: 'Withdrawn Advisory: dom4j XML Entity Expansion vulnerability'
+    cve_id: CVE-2023-45960
+    cve_url: https://github.com/advisories/GHSA-fgq9-fc3q-vqmw
+    detected_date: Oct 28
+    severity: moderate
+    first_patched:
+- name: com.101tec:zkclient
+  description: A zookeeper client, that makes life a little easier
+  version: '0.11'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-common/pom.xml
+  detection_source: efak-common/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2020-08-11 09:36:02.000000000 Z
+- name: com.alibaba:druid
+  description: An JDBC datasource implementation
+  version: 1.2.11
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-common/pom.xml
+  detection_source: efak-common/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2020-08-11 09:36:02.000000000 Z
+- name: com.alibaba:fastjson
+  description: Fastjson is a JSON processor
+  version: 2.0.9
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-common/pom.xml
+  detection_source: efak-common/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2020-08-11 09:36:02.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-core
+  description: Core Jackson processing abstractions
+  version: 2.13.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-web/pom.xml
+  detection_source: efak-web/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2022-10-11 07:23:40.000000000 Z
+- name: com.google.code.gson:gson
+  description: Gson JSON library
+  version: 2.9.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-common/pom.xml
+  detection_source: efak-common/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2020-08-11 09:36:02.000000000 Z
+- name: commons-beanutils:commons-beanutils
+  description: Apache Commons BeanUtils provides an easy-to-use but flexible wrapper
+    around reflection and introspection
+  version: 1.9.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-common/pom.xml
+  detection_source: efak-common/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2021-09-11 18:35:59.000000000 Z
+- name: commons-dbcp:commons-dbcp
+  description: Commons Database Connection Pooling
+  version: '1.4'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-web/pom.xml
+  detection_source: efak-web/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2021-09-11 18:35:59.000000000 Z
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  version: 2.11.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-api/pom.xml
+  detection_source: efak-api/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2021-09-11 18:35:59.000000000 Z
+- name: commons-lang:commons-lang
+  description: Commons Lang
+  version: '2.6'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-common/pom.xml
+  detection_source: efak-common/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2021-09-11 18:35:59.000000000 Z
+- name: commons-logging:commons-logging
+  description: Apache Commons Logging is a thin adapter allowing configurable bridging
+    to other
+  version: 1.1.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-common/pom.xml
+  detection_source: efak-common/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2021-09-11 18:35:59.000000000 Z
+- name: javax.mail:mail
+  description: "${project.name}"
+  version: 1.4.7
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-common/pom.xml
+  detection_source: efak-common/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2020-08-11 09:36:02.000000000 Z
+- name: javax.servlet:servlet-api
+  version: '2.5'
+  license: CDDL-1.0,GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-web/pom.xml
+  detection_source: efak-web/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2021-09-11 18:35:59.000000000 Z
+- name: jstl:jstl
+  version: '1.2'
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-web/pom.xml
+  detection_source: efak-web/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2020-08-11 09:36:02.000000000 Z
+- name: org.apache.commons:commons-lang3
+  description: Apache Commons Lang
+  version: 3.12.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-web/pom.xml
+  detection_source: efak-web/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2022-07-17 05:46:47.000000000 Z
+- name: org.apache.httpcomponents:httpclient
+  description: Apache HttpComponents Client
+  version: 4.5.13
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-common/pom.xml
+  detection_source: efak-common/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2021-05-07 14:51:28.000000000 Z
+- name: org.apache.shiro:shiro-ehcache
+  version: 1.9.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-web/pom.xml
+  detection_source: efak-web/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2022-07-17 05:46:47.000000000 Z
+- name: org.apache.shiro:shiro-spring
+  version: 1.9.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-web/pom.xml
+  detection_source: efak-web/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2022-07-17 05:46:47.000000000 Z
+- name: org.apache.thrift:libthrift
+  description: Thrift is a software framework for scalable cross-language services
+    development
+  version: 0.16.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-core/pom.xml
+  detection_source: efak-core/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2020-09-16 16:11:49.000000000 Z
+- name: org.aspectj:aspectjrt
+  description: The runtime needed to execute a program using AspectJ
+  version: 1.9.9
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-web/pom.xml
+  detection_source: efak-web/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2022-07-17 05:46:47.000000000 Z
+- name: org.aspectj:aspectjweaver
+  description: The AspectJ weaver introduces advices to java classes
+  version: 1.9.9
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-web/pom.xml
+  detection_source: efak-web/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2022-07-17 05:46:47.000000000 Z
+- name: org.mybatis:mybatis
+  description: The MyBatis SQL mapper framework makes it easier to use a relational
+    database with object-oriented applications
+  version: 3.5.10
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-web/pom.xml
+  detection_source: efak-web/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2022-07-17 05:46:47.000000000 Z
+- name: org.mybatis:mybatis-spring
+  description: An easy-to-use Spring bridge for MyBatis sql mapping framework
+  version: 2.0.7
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-web/pom.xml
+  detection_source: efak-web/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2022-07-17 05:46:47.000000000 Z
+- name: org.quartz-scheduler:quartz
+  description: Enterprise Job Scheduler
+  version: 2.3.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-common/pom.xml
+  detection_source: efak-common/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2021-05-07 14:51:28.000000000 Z
+- name: org.slf4j:slf4j-log4j12
+  description: SLF4J LOG4J-12 Binding
+  version: 1.7.33
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-common/pom.xml
+  detection_source: efak-common/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2021-05-07 14:51:28.000000000 Z
+- name: org.springframework:spring-aop
+  description: Spring AOP
+  version: 5.3.22
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-web/pom.xml
+  detection_source: efak-web/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2022-07-17 05:46:47.000000000 Z
+- name: org.springframework:spring-beans
+  description: Spring Beans
+  version: 5.3.22
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-web/pom.xml
+  detection_source: efak-web/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2022-07-17 05:46:47.000000000 Z
+- name: org.springframework:spring-context
+  description: Spring Context
+  version: 5.3.22
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-web/pom.xml
+  detection_source: efak-web/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2022-07-17 05:46:47.000000000 Z
+- name: org.springframework:spring-context-support
+  description: Spring Context Support
+  version: 5.3.22
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-web/pom.xml
+  detection_source: efak-web/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2022-07-17 05:46:47.000000000 Z
+- name: org.springframework:spring-jdbc
+  description: Spring JDBC
+  version: 5.3.22
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-web/pom.xml
+  detection_source: efak-web/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2022-07-17 05:46:47.000000000 Z
+- name: org.springframework:spring-oxm
+  description: Spring Object/XML Marshalling
+  version: 5.3.22
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-web/pom.xml
+  detection_source: efak-web/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2022-07-17 05:46:47.000000000 Z
+- name: org.springframework:spring-test
+  description: Spring TestContext Framework
+  version: 5.3.22
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-web/pom.xml
+  detection_source: efak-web/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2022-07-17 05:46:47.000000000 Z
+- name: org.springframework:spring-tx
+  description: Spring Transaction
+  version: 5.3.22
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-web/pom.xml
+  detection_source: efak-web/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2022-07-17 05:46:47.000000000 Z
+- name: org.springframework:spring-webmvc
+  description: Spring Web MVC
+  version: 5.3.22
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/EFAK/blob/master/efak-web/pom.xml
+  detection_source: efak-web/pom.xml
+  last_updated_by: smartloli
+  last_updated_on: 2022-07-17 05:46:47.000000000 Z
